@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 90vw;
+  padding: 25px;
+  font-size: var(--font-size-very-big);
+  color: var(--text-color-first);
+  background-color: var(--bg-color);
+  margin: 10px auto;
+  opacity: 0.8;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.icon {
+  margin-right: 10px;
+}

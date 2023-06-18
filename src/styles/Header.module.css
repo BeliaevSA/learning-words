@@ -1,0 +1,37 @@
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  min-height: 50px;
+  padding: 10px 0 15px;
+  border-end-start-radius: 100px 10px;
+  border-end-end-radius: 100px 10px;
+  background-color: var(--bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: var(--font-size-big);
+  color: var(--text-color-first);
+  font-weight: 600;
+}
+
+.iconBack {
+  position: absolute;
+  top: 7px;
+  left: 10px;
+  font-size: var(--font-size-very-big);
+  cursor: pointer;
+}
+
+.iconParams {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  font-size: 26px;
+  cursor: pointer;
+}

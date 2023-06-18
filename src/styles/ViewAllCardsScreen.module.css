@@ -1,0 +1,15 @@
+.container {
+  padding-top: 70px;
+  padding-bottom: 20px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-size: var(--font-size-very-big);
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+}

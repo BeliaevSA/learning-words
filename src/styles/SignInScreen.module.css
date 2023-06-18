@@ -1,0 +1,72 @@
+.container {
+  min-height: 100vh;
+  padding-top: 70px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg-color);
+  padding: 30px 20px;
+  border-radius: 10px;
+}
+
+/* .title {
+  font-size: var(--font-size-big);
+  font-weight: 600;
+  margin-bottom: 20px;
+} */
+
+.input {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid var(--text-color-first);
+  padding: 10px 0px;
+  width: 70vw;
+  margin-bottom: 45px;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.btns {
+  margin-top: 10px;
+}
+
+.btn-sign-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 10px 20px; */
+  background-color: rgb(38, 157, 255);
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  color: white;
+  margin-right: 30px;
+  width: 140px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.btn-sign-up:disabled {
+  background-color: rgb(136, 138, 139);
+  cursor: default;
+}
+
+.input-wrapper {
+  position: relative;
+}
+
+.error {
+  position: absolute;
+  top: 50px;
+  color: red;
+}
+
+.errorFetch {
+  color: red;
+}

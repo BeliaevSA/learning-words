@@ -1,0 +1,21 @@
+.letter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 10px;
+  background-color: var(--bg-color-hover);
+  width: 8vw;
+  height: 6vh;
+  font-weight: 500;
+  border-radius: 5px;
+  font-size: var(--font-size-big);
+  cursor: pointer;
+  opacity: 1;
+  transition: all 0.2s linear;
+}
+
+.letter.active {
+  transform: translateY(-20px);
+  opacity: 0;
+  visibility: hidden;
+}

@@ -1,0 +1,44 @@
+:root {
+  --bg-color: rgb(255, 255, 255);
+  --bg-color-hover: rgb(216, 231, 253);
+  --font-size-very-big: 30px;
+  --font-size-big: 21px;
+  --font-size-normal: 16px;
+  --font-size-small: 12px;
+  --text-color-first: rgb(43, 43, 43);
+
+  color: var(--text-color-first);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  /* height: 100vh; */
+  /* overflow: hidden; */
+  background: linear-gradient(rgb(29, 120, 180), rgb(138, 219, 247));
+}
+
+@media screen and (max-width: 450px) {
+  :root {
+    --font-size-very-big: 30px;
+    --font-size-big: 20px;
+    --font-size-normal: 16px;
+    --font-size-small: 12px;
+  }
+}
