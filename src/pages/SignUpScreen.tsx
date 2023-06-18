@@ -34,6 +34,9 @@ export const SignUpScreen = () => {
         setErrorText("Что-то пошло не так, попробуйте снова");
         break;
     }
+    console.log(process.env.REACT_APP_WORDPRESS_REST_API)
+    console.log(process.env.REACT_APP_ADMIN_USERNAME)
+    console.log(process.env.REACT_APP_ADMIN_PASSWORD)
   }, [errorFetch]);
 
   // console.log(typeof process.env.REACT_APP_ADMIN_USERNAME)
